@@ -1,3 +1,37 @@
 baseURL = 'http://abiuni.github.io/abirbouraffa'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+theme = "barks"
+title = 'Abir Bouraffa'
+author = "Abir Bouraffa"
+description = "Hi, I'm Carl, and this is my website!"
+keywords = ["some", "keywords", "to", "describe", "this"]
+
+[params.navigation]
+    show_navigation = true
+
+[params.footer]
+    show_footer = true
+
+[params.typography]
+    title_font = "Bree Serif"
+    body_font = "Source Sans Pro"
+
+[params.colors]
+    theme_color = "#333333"
+    background_color = "#fcfbf9"
+    text_color = "#333333"
+    link_color = "#60c17d"
+
+[params.social]
+    [params.social.github]
+        name = "GitHub"
+        class = "fab fa-github"
+        url = "https://github.com/abiUni"
+        weight = 2
+    [params.social.linkedin]
+        name = "LinkedIn"
+        class = "fab fa-linkedin"
+        url = "https://de.linkedin.com/in/abir-bouraffa-38881b137"
+        weight = 3
+
+
