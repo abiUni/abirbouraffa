@@ -5,6 +5,38 @@ title = 'Abir Bouraffa'
 author = "Abir Bouraffa"
 description = "Hi, I'm Carl, and this is my website!"
 keywords = ["some", "keywords", "to", "describe", "this"]
+Copyright = "© Abir Bouraffa 2022 - <a href='/abirbouraffa/imprint'>Imprint</a> - Theme by Timothy Gebhard - Made with <a href='https://gohugo.io/'>Hugo</a>"
+
+[[menu.mainmenu]]
+name = "Publications"
+weight = 1
+identifier = "publications"
+url = "/peer-reviewed_preprint"
+
+[[menu.mainmenu]]
+name = "Blog Posts"
+weight = 2
+identifier = "blog"
+url = "/blog"
+
+[[menu.mainmenu]]
+name = "Volunteering"
+weight = 3
+identifier = "volunteering"
+url = "/volunteering"
+
+[[menu.mainmenu]]
+name = "About"
+weight = 4
+identifier = "about"
+url = "/about"
+
+[[menu.mainmenu]]
+name = "Imprint"
+weight = 4
+hidden= true
+identifier = "imprint"
+url = "/imprint"
 
 [params.navigation]
     show_navigation = true
@@ -27,11 +59,25 @@ keywords = ["some", "keywords", "to", "describe", "this"]
         name = "GitHub"
         class = "fab fa-github"
         url = "https://github.com/abiUni"
+        weight = 1
+    [params.social.orcid]
+        name = "orcid"
+        class = "ai ai-orcid"
+        url = "https://orcid.org/0000-0002-0980-625X"
         weight = 2
     [params.social.linkedin]
         name = "LinkedIn"
         class = "fab fa-linkedin"
         url = "https://de.linkedin.com/in/abir-bouraffa-38881b137"
         weight = 3
-
+    [params.social.twitter]
+        name = "LinkedIn"
+        class = "fab fa-twitter"
+        url = "https://twitter.com/ABouraffa"
+        weight = 4
+    [params.social.medium]
+        name = "Medium"
+        class = "fab fa-medium"
+        url = "https://abirbouraffa.medium.com/"
+        weight = 5
 
