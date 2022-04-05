@@ -11,7 +11,7 @@ Copyright = "© Abir Bouraffa 2022 - <a href='/abirbouraffa/imprint'>Imprint</a>
 name = "Publications"
 weight = 1
 identifier = "publications"
-url = "/peer-reviewed_preprint"
+url = "/publications"
 
 [[menu.mainmenu]]
 name = "Blog Posts"
@@ -24,12 +24,6 @@ name = "Volunteering"
 weight = 3
 identifier = "volunteering"
 url = "/volunteering"
-
-[[menu.mainmenu]]
-name = "About"
-weight = 4
-identifier = "about"
-url = "/about"
 
 [[menu.mainmenu]]
 name = "Imprint"

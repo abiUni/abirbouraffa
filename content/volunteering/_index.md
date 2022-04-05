@@ -5,4 +5,5 @@ type: _default
 ---
 
 * [SDG AI Lab @UNDP](https://sdgailab.org/)
+  
 * [Pint of Science](https://pintofscience.de/team/Team%20Hamburg)
